@@ -13,3 +13,26 @@ img {
 body {
     background-color: aqua;
 }
+
+/* COMMON */
+/* Typography */
+
+body {
+    font-family: sans-serif;
+}
+
+/* UTILITY */
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    justify-content: space-between;
+}
+
+
+/* HEADER */
+/* MAIN */
+/* FOOTER */
