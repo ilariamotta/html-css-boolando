@@ -11,13 +11,8 @@ img {
 }
 
 body {
-    /* background-color: aqua; */
+    background-color: white;
 }
-
-/* bordi contenuto */
-/* div {
-    border: 1px solid black;
-} */
 
 /* COMMON */
 /* Typography */
@@ -26,7 +21,20 @@ body {
     font-family: sans-serif;
 }
 
+
+
 /* UTILITY */
+
+span {
+    display: flex;
+    white-space: normal;
+}
+
+.no-break {
+    white-space: nowrap;
+}
+
+
 
 /* CONTAINER */
 
@@ -40,13 +48,49 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 20px 15px;
 }
 
 .col-30 {
     width: 30%;
+    display: flex;
+    flex-direction: column;
 }
 
 
 /* HEADER */
 /* MAIN */
+
+.marca {
+font-size: 0.7rem;
+}
+
+.prodotto {
+font-size: 0.8rem;
+font-weight: 800;
+}
+
+.prezzo-attuale {
+color: red;
+font-weight: 900;
+font-size: 0.7rem;
+}
+
+.prezzo-originale {
+text-decoration: line-through;
+font-size: 0.7rem;
+}
+
+.card {
+    position: relative;
+}
+
+.h-button {
+    background-color: white;
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 2px 6px;
+    border: 0px;
+}
+
 /* FOOTER */
