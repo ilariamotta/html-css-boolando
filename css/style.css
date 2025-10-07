@@ -11,8 +11,13 @@ img {
 }
 
 body {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
+
+/* bordi contenuto */
+/* div {
+    border: 1px solid black;
+} */
 
 /* COMMON */
 /* Typography */
@@ -26,10 +31,19 @@ body {
 /* CONTAINER */
 
 .container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.riga {
     display: flex;
-    flex-direction: column;
-    max-width: 80%;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col-30 {
+    width: 30%;
 }
 
 
